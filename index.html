@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reaction Time Game</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <h1>REFLEX GAME</h1>
+        </div>
+
+        <div class="navigation">
+            <h2>How good is your reflex?</h2>
+            <p class="information">Click on the area after the color changes to <span>Green</span>.</p>
+        </div>
+        <div class="canvas-parent">
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="score">
+            <div class="section-1">
+                <button id="start" type="button">Start Game</button>
+            </div>
+            <div class="section-2">
+                <p>Your time:</p>
+                <p id="time-text">NO TIME</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
